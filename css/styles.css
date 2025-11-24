@@ -1,0 +1,28 @@
+      /* Set the margin and padding of the body to 0 */
+      @font-face {
+        font-family: Comic-Sans-MS;
+        src: url(assets/Comic\ Sans\ MS.ttf);
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Set the margin and padding of the header to 0 */
+      header {
+        margin: 0;
+        padding: 0;
+        align-content: center;
+        /* Set the height of the header to 100% of the viewport height */
+        height: 100vh;
+        background-color: #ec5e5e;
+      }
+      header h1 {
+        font-family: Comic-Sans-MS;
+        text-align: center;
+      }
+     header hr {
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        width:25%;
+     }
