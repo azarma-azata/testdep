@@ -3,7 +3,11 @@
         font-family: Comic-Sans-MS;
         src: url(../assets/Comic\ Sans\ MS.ttf);
       }
+      html{
+        background-color: black;
+      }
       body {
+        background-color: rgb(49, 47, 47);
         margin: 0;
         padding: 0;
       }
