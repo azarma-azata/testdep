@@ -1,7 +1,7 @@
       /* Set the margin and padding of the body to 0 */
       @font-face {
         font-family: Comic-Sans-MS;
-        src: url(assets/Comic\ Sans\ MS.ttf);
+        src: url(../assets/Comic\ Sans\ MS.ttf);
       }
       body {
         margin: 0;
@@ -10,6 +10,9 @@
 
       /* Set the margin and padding of the header to 0 */
       header {
+        background-image: url(../assets/bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 0;
         padding: 0;
         align-content: center;
@@ -18,11 +21,17 @@
         background-color: #ec5e5e;
       }
       header h1 {
+        color: aliceblue;
+        margin-left: 50vh;
+        margin-right: 110vh;
         font-family: Comic-Sans-MS;
-        text-align: center;
+        align-content: center;
+        text-align: left;
+        border-bottom: 3px solid aliceblue;
+        line-height: 66px;
       }
-     header hr {
-        border: 3px solid rgb(0, 0, 0);
-        border-radius: 5px;
-        width:25%;
-     }
+      header p {
+        margin-left: 60vh;
+        font-size: 24px;
+        color: aliceblue;
+      }
