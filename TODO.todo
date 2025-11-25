@@ -1,0 +1,16 @@
+- Push when wifi is available
+
+- Fix projets section flex box (space between them too high)
+- Dl the rigbt images for the projets
+    - Cute Ghost
+    - Parity
+- Add the final projets (3 one)
+- Add responsiness to the website
+- Add an about me section between header and projets section : 
+    - a classic introduction
+    - summary of the studies made
+    - a button to access the CV
+- Add a Footer in which : 
+    - add a contact page with email preset.
+    - add a button to the top
+    - add a official media accounts 
