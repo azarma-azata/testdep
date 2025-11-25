@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Comic-Sans-MS;
+  src: url(../assets/Comic\ Sans\ MS.ttf);
+}
+
+html {
+    background-color: rgba(240, 248, 255, 0.959);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.profile-card {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    outline: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display:inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(0, 17, 255);
+}
+.profile-img {
+    display: block;
+    outline: 3px solid rgb(0, 0, 0);
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-card h2 {
+    text-align: center;
+    font-family: Comic-Sans-MS;
+    margin-bottom: -15px;
+}
+
+.profile-card .title {
+    text-align: center;
+    font-size: 80%;
+    font-family: Comic-Sans-MS;
+    color: rgb(0, 170, 248);
+}
+
+.profile-card .description{
+    text-align: center;
+    margin: 10px;
+}

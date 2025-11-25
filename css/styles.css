@@ -1,41 +1,118 @@
-      /* Set the margin and padding of the body to 0 */
-      @font-face {
-        font-family: Comic-Sans-MS;
-        src: url(../assets/Comic\ Sans\ MS.ttf);
-      }
-      html{
-        background-color: black;
-      }
-      body {
-        background-color: rgb(49, 47, 47);
-        margin: 0;
-        padding: 0;
-      }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-      /* Set the margin and padding of the header to 0 */
-      header {
-        background-image: url(../assets/bg.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0;
-        padding: 0;
-        align-content: center;
-        /* Set the height of the header to 100% of the viewport height */
-        height: 100vh;
-        background-color: #ec5e5e;
-      }
-      header h1 {
-        color: aliceblue;
-        margin-left: 50vh;
-        margin-right: 110vh;
-        font-family: Comic-Sans-MS;
-        align-content: center;
-        text-align: left;
-        border-bottom: 3px solid aliceblue;
-        line-height: 66px;
-      }
-      header p {
-        margin-left: 60vh;
-        font-size: 24px;
-        color: aliceblue;
-      }
+@font-face {
+  font-family: Comic-Sans-MS;
+  src: url(../assets/Comic\ Sans\ MS.ttf);
+}
+
+html{
+  background-color: black;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+ header {
+  background-image: url(../assets/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+header h1 {
+  color: aliceblue;
+  margin-left: 50vh;
+  margin-right: 110vh;
+  font-family: Comic-Sans-MS;
+  align-content: center;
+  text-align: left;
+  border-bottom: 3px solid aliceblue;
+  line-height: 66px;
+}
+
+header p {
+  margin-left: 60vh;
+  font-size: 24px;
+  color: aliceblue;
+}
+
+.project-card {
+  flex: 1 1 0;
+  margin: 10%;
+  outline: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px rgb(0, 17, 255);
+}
+.project-img {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    outline: 3px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.project-card h2 {
+    text-align: center;
+    font-family: Comic-Sans-MS;
+    margin-bottom: -15px;
+}
+
+.project-card .title {
+    text-align: center;
+    font-size: 80%;
+    font-family: Comic-Sans-MS;
+    color: rgb(0, 170, 248);
+}
+
+.project-card .description{
+    text-align: center;
+    margin: 10px;
+}
+
+.project-card .btn {
+  font-size: 80%;
+  text-decoration: none;
+  font-family: Comic-Sans-MS;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7px;   
+  background-color: rgb(0, 170, 248);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+.project-card .btn:hover {
+  background-color: blue;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-image: linear-gradient(black,rgb(1, 8, 109));
+}
+
+a {
+  color: aliceblue;
+  font-family: Comic-Sans-MS;
+  font-size: 32px;
+  margin: auto;
+  margin-left: 1%;
+  padding-right: 5%;
+  text-align: left;
+  border-bottom: 3px solid aliceblue;
+  line-height: 66px;
+}
