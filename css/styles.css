@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: Comic-Sans-MS;
-  src: url(../assets/Comic\ Sans\ MS.ttf);
+  src: url(../assets/Comic-Sans-MS.ttf);
+  fallback: arial;
 }
 
 html{
@@ -132,7 +133,7 @@ header p {
   color: aliceblue;
 }
 
-a {
+.titles {
   color: aliceblue;
   font-family: Comic-Sans-MS;
   font-size: 32px;
@@ -142,4 +143,29 @@ a {
   text-align: end;
   border-bottom: 3px solid aliceblue;
   line-height: 66px;
+}
+
+main {
+  margin-bottom: 0%;
+}
+
+footer {
+  background: linear-gradient(rgb(1, 8, 109), black, black, black);
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  height: 10em;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 10%;
+  text-align: center;
+}
+
+footer .icons {
+  color: aliceblue;
+  text-align: center;
 }
