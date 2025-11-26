@@ -113,7 +113,7 @@ header p {
   background-color: blue;
 }
 
-section {
+.project {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -121,9 +121,15 @@ section {
 }
 
 @media screen and (max-width: 800px) {
-  section {
+  .project {
     flex-direction: column;
   }
+}
+
+.about {
+  margin-left: 5%;
+  margin-right: 1%;
+  color: aliceblue;
 }
 
 a {
