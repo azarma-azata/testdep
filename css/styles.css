@@ -45,17 +45,32 @@ header p {
   color: aliceblue;
 }
 
+@media screen and (max-width: 800px) {
+  header h1 {
+    margin-left: 10%;
+    margin-bottom: 0%;
+    border-bottom: none;
+    line-height: normal;
+  }
+  header p {
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+}
+
 .project-card {
   flex: 1 1 0;
-  margin: 10%;
+  margin: 5%;
+  max-width: 50vh;
   outline: 5px solid rgb(0, 0, 0);
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 10px rgb(0, 17, 255);
 }
+
 .project-img {
     display: flex;
-    margin-top: 20px;
+    margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -105,6 +120,12 @@ section {
   background-image: linear-gradient(black,rgb(1, 8, 109));
 }
 
+@media screen and (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+}
+
 a {
   color: aliceblue;
   font-family: Comic-Sans-MS;
@@ -112,7 +133,7 @@ a {
   margin: auto;
   margin-left: 1%;
   padding-right: 5%;
-  text-align: left;
+  text-align: end;
   border-bottom: 3px solid aliceblue;
   line-height: 66px;
 }
