@@ -189,6 +189,7 @@ footer p {
 }
 
 footer .icons {
-  color: aliceblue;
-  text-align: center;
+  font-size: 26px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
